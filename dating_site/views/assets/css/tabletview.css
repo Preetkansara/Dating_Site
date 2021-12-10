@@ -1,0 +1,44 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media screen and (max-width: 1024px) {
+  
+    body{
+        overflow: hidden;
+    }
+    .nav-links{
+        position: absolute;;
+        right: 0px;
+        height: 92vh;;
+        top: 8vh;
+        
+    background-image: url("/assets/css/images/navbackground.jpg");
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform:translateX(100%);
+        transition : transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    /* //CSS */
+    
+  }
+  
